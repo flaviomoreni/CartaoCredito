@@ -9,6 +9,17 @@ public class Portador {
 	private double valorLimite;
 	
 	
+	public Portador(){
+		
+	}
+	
+	public Portador(String cpfPortador, String nomePortador) {
+		this.cpfPortador = cpfPortador;
+		this.nomePortador = nomePortador;
+	}
+
+
+
 	public long getPortadorId() {
 		return portadorId;
 	}

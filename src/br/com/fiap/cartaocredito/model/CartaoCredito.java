@@ -23,6 +23,25 @@ public class CartaoCredito {
 	private String tecnologia[]; // tarja, chip, contactless
 	
 	
+	
+	public CartaoCredito() {
+		System.out.println("Inicializando a classe Pai Cartao Crédito");
+	}
+	
+	public CartaoCredito(String numeroCartao) {
+		this.numeroCartao = numeroCartao;
+	}
+	
+	public CartaoCredito(String numeroCartao, Portador portador) {
+		this.numeroCartao = numeroCartao;
+		this.portador = portador;
+	}
+	
+	
+	
+	
+	
+	
 	public long getCartaoCreditoId() {
 		return cartaoCreditoId;
 	}
