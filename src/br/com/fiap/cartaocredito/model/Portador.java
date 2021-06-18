@@ -1,6 +1,6 @@
 package br.com.fiap.cartaocredito.model;
 
-public class Portador {
+public class Portador extends Pessoa {
 
 	private long portadorId;
 	private String cpfPortador;
