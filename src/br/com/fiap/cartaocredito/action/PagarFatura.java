@@ -2,7 +2,6 @@ package br.com.fiap.cartaocredito.action;
 
 import br.com.fiap.cartaocredito.businessrules.PagamentoFaturaRegras;
 import br.com.fiap.cartaocredito.model.CartaoCredito;
-import br.com.fiap.cartaocredito.model.CartaoCreditoBlack;
 
 public class PagarFatura {
 

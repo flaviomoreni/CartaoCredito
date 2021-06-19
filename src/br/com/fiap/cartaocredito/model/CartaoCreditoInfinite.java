@@ -1,7 +1,7 @@
 package br.com.fiap.cartaocredito.model;
 
 
-public class CartaoCreditoInfinite {
+public class CartaoCreditoInfinite extends CartaoCredito {
 
 	private String seguroPerda;
 
