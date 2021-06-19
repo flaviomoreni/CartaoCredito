@@ -1,6 +1,6 @@
 package br.com.fiap.cartaocredito.model;
 
-public class Pessoa {
+public abstract class Pessoa {
 
 	private String documentoIdentificacao;
 

@@ -4,13 +4,14 @@ import javax.swing.JOptionPane;
 
 import br.com.fiap.cartaocredito.action.PagarFatura;
 import br.com.fiap.cartaocredito.model.CartaoCredito;
+import br.com.fiap.cartaocredito.model.CartaoCreditoBlack;
 import br.com.fiap.cartaocredito.model.Portador;
 
 public class PagamentoFaturaTest {
 
 	public static void main(String[] args) {
 		
-		CartaoCredito cartaoCredito = new CartaoCredito();
+		CartaoCreditoBlack cartaoCredito = new CartaoCreditoBlack();
 		//cartaoCredito.setNumeroCartao( JOptionPane.showInputDialog("Digite o cartão") );
 		cartaoCredito.setNumeroCartao( "0000 0000 0000 9999" );
 		cartaoCredito.setBandeira("Master");

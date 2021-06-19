@@ -3,7 +3,7 @@ package br.com.fiap.cartaocredito.model;
 import java.util.Arrays;
 import java.util.Date;
 
-public class CartaoCredito {
+public abstract class CartaoCredito {
 
 	private long cartaoCreditoId;
 	private String numeroCartao;

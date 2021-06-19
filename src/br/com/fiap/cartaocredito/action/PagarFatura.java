@@ -2,6 +2,7 @@ package br.com.fiap.cartaocredito.action;
 
 import br.com.fiap.cartaocredito.businessrules.PagamentoFaturaRegras;
 import br.com.fiap.cartaocredito.model.CartaoCredito;
+import br.com.fiap.cartaocredito.model.CartaoCreditoBlack;
 
 public class PagarFatura {
 
@@ -25,7 +26,7 @@ public class PagarFatura {
 			// iniciar novo ciclo de compra
 			System.out.println("Liberando novo ciclo de compra");
 			
-			
+			// imprimir comprovante
 			System.out.println("***********************************");
 			System.out.println("Cliente: " + cartaoCredito.getPortador().getNomePortador() );
 			System.out.println("N. Cartão: " + cartaoCredito.getNumeroCartao() );
@@ -42,5 +43,6 @@ public class PagarFatura {
 		}
 		
 	}
+	
 	
 }
